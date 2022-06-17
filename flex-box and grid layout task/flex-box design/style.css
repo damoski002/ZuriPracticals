@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  display: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  height: 50%;
+}
+.suvs {
+  background-color: hsl(184, 82%, 26%);
+  height: 50%;
+}
+.luxury {
+  background-color: hsl(179, 83%, 16%);
+  height: 50%;
+}
+h2 {
+  font-family: Lexend Deca;
+  padding: 20px 20px;
+  margin-left: 0.5rem;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-family: Big Shoulders Display;
+  font-size: 15px;
+  padding: 20px 20px;
+  margin-left: 0.5rem;
+  color: hsl(0, 0%, 95%);
+  text-align: left;
+}
+.btn {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding: 0.4rem 0.8rem;
+  margin: 5px 30px;
+  border: 2px solid hsla(0, 0%, 100%, 0.75);
+  border-radius: 1.5rem;
+  background: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 375px){
+  main{
+display: table-column;
+  background-color:blue
+  }
+}
+@media screen and (max-width:1440px) {
+  main {
+display: flexbox;
+  }
+}
