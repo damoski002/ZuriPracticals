@@ -8,5 +8,3 @@ the folders involves two practicals in one
 Grid Layout  page: https://damoski002.github.io/zuriPracticalss/
 flex box page :  https://damoski002.github.io/Flex-box-assignment/
 flex box repo:  https://github.com/damoski002/Flex-box-assignment.git
-
-
